@@ -1,0 +1,16 @@
+h1= title
+
+p #{book.body}
+- var month_names = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+- day = book.created_at.getDate()
+- month = book.created_at.getMonth()
+- year = book.created_at.getFullYear()
+
+p#book_date 
+  created on #{month_names[month]} #{day}, #{year}
+  
+p 
+  a(href='/book/'+book._id+'/edit') Edit
+  
+p
+  a(href='/books') Back

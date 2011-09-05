@@ -1,0 +1,184 @@
+h1= title
+
+form(method="post",action="/books")
+  p
+    label Title
+    br
+    input(type="text", name="book[title]", value=book.title)
+  
+  p
+    label Body
+    br
+    textarea(name="book[body]") #{book.body}
+
+  p
+    label description
+    br
+    textarea(name="book[description]") #{book.description}
+
+  p
+    label image
+    br
+    textarea(name="book[image]") #{book.image}
+
+  p
+    label name
+    br
+    textarea(name="book[name]") #{book.name}
+
+  p
+    label url
+    br
+    textarea(name="book[url]") #{book.url}
+
+  p
+    label about
+    br
+    textarea(name="book[about]") #{book.about}
+
+  p
+    label aggregateRating
+    br
+    textarea(name="book[aggregateRating]") #{book.aggregateRating}
+
+  p
+    label audio
+    br
+    textarea(name="book[audio]") #{book.audio}
+
+  p
+    label author
+    br
+    textarea(name="book[author]") #{book.author}
+
+  p
+    label awards
+    br
+    textarea(name="book[awards]") #{book.awards}
+
+  p
+    label contentLocation
+    br
+    textarea(name="book[contentLocation]") #{book.contentLocation}
+
+  p
+    label contentRating
+    br
+    textarea(name="book[contentRating]") #{book.contentRating}
+
+  p
+    label datePublished
+    br
+    textarea(name="book[datePublished]") #{book.datePublished}
+
+  p
+    label editor
+    br
+    textarea(name="book[editor]") #{book.editor}
+
+  p
+    label encodings
+    br
+    textarea(name="book[encodings]") #{book.encodings}
+
+  p
+    label genre
+    br
+    textarea(name="book[genre]") #{book.genre}
+
+  p
+    label headline
+    br
+    textarea(name="book[headline]") #{book.headline}
+
+  p
+    label inLanguage
+    br
+    textarea(name="book[inLanguage]") #{book.inLanguage}
+
+  p
+    label interactionCount
+    br
+    textarea(name="book[interactionCount]") #{book.interactionCount}
+
+  p
+    label isFamilyFriendly
+    br
+    textarea(name="book[isFamilyFriendly]") #{book.isFamilyFriendly}
+
+  p
+    label keywords
+    br
+    textarea(name="book[keywords]") #{book.keywords}
+
+  p
+    label offers
+    br
+    textarea(name="book[offers]") #{book.offers}
+
+  p
+    label publisher
+    br
+    textarea(name="book[publisher]") #{book.publisher}
+  p
+    label reviews
+    br
+    textarea(name="book[reviews]") #{book.reviews}
+
+  p
+    label video
+    br
+    textarea(name="book[video]") #{book.video}
+
+  p
+    label bookEdition
+    br
+    textarea(name="book[bookEdition]") #{book.bookEdition}
+
+  p
+    label bookFormat
+    br
+    textarea(name="book[bookFormat]") #{book.bookFormat}
+
+  p
+    label illustrator
+    br
+    textarea(name="book[illustrator]") #{book.illustrator}
+
+  p
+    label isbn
+    br
+    textarea(name="book[isbn]") #{book.isbn}
+
+  p
+    label numberOfPages
+    br
+    textarea(name="book[numberOfPages]") #{book.numberOfPages}
+
+  p
+    label price
+    br
+    textarea(name="book[price]") #{book.price}
+  
+  p
+    label productDimensions
+    br
+    textarea(name="book[productDimensions]") #{book.productDimensions}
+
+  p
+    label shippingweight
+    br
+    textarea(name="book[shippingweight]") #{book.shippingweight}
+
+  p
+    label averageCustomerReview
+    br
+    textarea(name="book[averageCustomerReview]") #{book.averageCustomerReview}
+
+
+  input(type="hidden", name="book[_id]", value=book._id)
+  
+  input(type="submit", value="Submit")
+  
+  a(href='/books') Cancel
+

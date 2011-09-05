@@ -1,0 +1,79 @@
+h1= title
+p #{title}
+a(href="/books/new") New Book
+hr
+div#books
+- each book in books
+  div#book
+    div#book_title
+      a(href='/book/'+book._id) #{book.title}
+    div#book_body
+      =book.body
+    div#book_description
+      =book.description
+    div#book_image
+      =book.image
+    div#book_name
+      =book.name
+    div#book_url
+      =book.url
+    div#book_about
+      =book.about
+    div#book_aggregateRating
+      =book.aggregateRating
+    div#book_audio
+      =book.audio
+    div#book_author
+      =book.author
+    div#book_awards
+      =book.awards
+    div#book_contentLocation
+      =book.contentLocation
+    div#book_contentRating
+      =book.contentRating
+    div#book_datePublished
+      =book.datePublished
+    div#book_editor
+      =book.editor
+    div#book_encodings
+      =book.encodings
+    div#book_genre
+      =book.genre
+    div#book_headline
+      =book.headline
+    div#book_inLanguage
+      =book.inLanguage
+    div#book_interactionCount
+      =book.interactionCount
+    div#book_isFamilyFriendly
+      =book.isFamilyFriendly
+    div#book_keywords
+      =book.keywords
+    div#book_offers
+      =book.offers
+    div#book_publisher
+      =book.publisher
+    div#book_reviews
+      =book.reviews
+    div#book_video
+      =book.video
+    div#book_bookEdition
+      =book.bookEdition
+    div#book_bookFormat
+      =book.bookFormat
+    div#book_illustrator
+      =book.illustrator
+    div#book_isbn
+      =book.isbn
+    div#book_numberOfPages
+      =book.numberOfPages
+    div#book_price
+      =book.price
+    div#book_productDimensions
+      =book.productDimensions
+    div#book_shippingweight
+      =book.shippingweight
+    div#book_averageCustomerReview
+      =book.averageCustomerReview
+    
+    a(href='/book/'+book._id+'/edit') Edit

@@ -1,0 +1,133 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #444;}
+
+a {
+  color: #00B7FF;}
+
+textarea {
+  width: 300px;
+  height: 100px;}
+
+input[type=text] {
+  width: 400px;}
+
+textarea, input[type=text] {
+  padding: 3px;
+  border: 1px solid #bbb;}
+
+* {
+  outline: none;}
+
+#book {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;}
+
+#book_body {
+  padding: 3px 0;}
+
+#book_description {
+  padding: 3px 0;}
+
+#book_image {
+  padding: 3px 0;}
+
+#book_name {
+  padding: 1px 0;}
+
+#book_url {
+  padding: 2px 0;}
+
+#book_about {
+  padding: 3px 0;}
+
+#book_aggregateRating {
+  padding: 1px 0;}
+
+#book_author {
+  padding: 2px 0;}
+
+#book_awards {
+  padding: 3px 0;}
+
+#book_contentLocation {
+  padding: 3px 0;}
+
+#book_contentRating {
+  padding: 1px 0;}
+
+#book_datePublished {
+  padding: 2px 0;}
+
+#book_editor {
+  padding: 2px 0;}
+
+#book_encodings {
+  padding: 2px 0;}
+
+#book_genre {
+  padding: 3px 0;}
+
+#book_headline {
+  padding: 2px 0;}
+
+#book_inLanguage {
+  padding: 3px 0;}
+
+#book_interactionCount {
+  padding: 3px 0;}
+
+#book_isFamilyFriendly {
+  padding: 3px 0;}
+
+#book_keywords {
+  padding: 3px 0;}
+
+#book_offers {
+  padding: 3px 0;}
+
+#book_publisher {
+  padding: 3px 0;}
+
+#book_reviews {
+  padding: 3px 0;}
+
+#book_video {
+  padding: 3px 0;}
+
+#book_bookEdition {
+  padding: 1px 0;}
+
+#book_bookFormat {
+  padding: 3px 0;}
+
+#book_illustrator {
+  padding: 3px 0;}
+
+#book_isbn {
+  padding: 3px 0;}
+
+
+#book_numberOfPages {
+  padding: 1px 0;}
+
+#book_price {
+  padding: 3px 0;}
+
+#book_productDimensions {
+  padding: 3px 0;}
+
+#book_shippingweight {
+  padding: 3px 0;}
+
+#book_averageCustomerReview {
+  padding: 3px 0;}
+
+#book_title {
+  font-size: 16px;
+  font-weight: bold;}
+
+#book_date {
+  color: #aaa;
+  font-size: 12px;}
